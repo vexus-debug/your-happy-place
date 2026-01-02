@@ -7,7 +7,7 @@ const HeroSection = () => {
   const navigate = useNavigate();
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-primary-soft/15 via-background to-secondary pt-16">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-primary/10 via-background to-accent-green/10 pt-16">
       {/* Split Screen Layout */}
       <div className="container mx-auto px-4 lg:px-8 h-screen flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-0">
         
@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="block text-foreground">
               Transform Your Beauty with
             </span>
-            <span className="block bg-gradient-to-r from-primary-deep via-primary to-accent-green bg-clip-text text-transparent" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.08)' }}>
+            <span className="block bg-gradient-to-r from-primary via-accent-green to-primary-deep bg-clip-text text-transparent" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.08)' }}>
               Premium Aesthetic Treatments
             </span>
           </h1>
@@ -55,7 +55,7 @@ const HeroSection = () => {
             <Button 
               onClick={() => navigate('/booking')}
               size="lg"
-              className="group relative overflow-hidden w-full sm:w-auto"
+              className="btn-gold group relative overflow-hidden w-full sm:w-auto"
             >
               <Calendar className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" />
               <span className="relative z-10 font-semibold">Book Appointment</span>

@@ -20,6 +20,8 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         luxury: "bg-gradient-to-r from-accent-light to-accent-green text-accent-foreground shadow-[0_4px_16px_hsl(var(--accent-green)/0.3)] hover:shadow-[0_8px_24px_hsl(var(--accent-green)/0.5),0_0_30px_hsl(var(--accent-green)/0.2)] hover:scale-105",
         premium: "bg-gradient-to-br from-primary via-primary-deep to-accent-green text-primary-foreground shadow-[0_4px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_32px_rgba(0,0,0,0.3),0_0_40px_hsl(var(--primary)/0.4)] hover:scale-105 relative overflow-hidden",
+        gold: "bg-gradient-to-r from-accent-light via-accent-green to-accent-dark text-accent-foreground shadow-[0_4px_16px_hsl(var(--accent-green)/0.4)] hover:shadow-[0_8px_28px_hsl(var(--accent-green)/0.6),0_0_40px_hsl(var(--accent-green)/0.3)] hover:scale-105",
+        "outline-gold": "border-2 border-accent-green bg-transparent text-accent-green hover:bg-accent-green hover:text-accent-foreground hover:scale-105 shadow-sm hover:shadow-[0_4px_20px_hsl(var(--accent-green)/0.4)]",
       },
       size: {
         default: "h-11 px-6 py-2.5",

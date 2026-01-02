@@ -36,10 +36,10 @@ const AboutPreview = memo(() => {
   const navigate = useNavigate();
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background via-secondary/20 to-background relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-b from-accent-green/5 via-background to-primary/5 relative overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-20 right-10 w-64 h-64 bg-gold/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-10 left-10 w-48 h-48 bg-primary/5 rounded-full blur-3xl" />
+      <div className="absolute top-20 right-10 w-64 h-64 bg-accent-green/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 left-10 w-48 h-48 bg-primary/10 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
