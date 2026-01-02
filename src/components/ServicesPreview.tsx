@@ -68,11 +68,11 @@ const ServicesPreview = memo(() => {
 
   // Select the most important services to display on homepage
   const displayedCategories = [
-    "Massage Services",
-    "Waxing Services", 
-    "Peels & Advanced Treatments",
-    "Hair Cut Services",
-    "Manicure Services"
+    "Botox Treatments",
+    "Dermal Fillers", 
+    "PDO Thread Lift",
+    "Non-Surgical Nose Jobs",
+    "Massage Therapy"
   ];
 
   const services = servicesData
@@ -104,21 +104,21 @@ const ServicesPreview = memo(() => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/10 border border-gold/20 mb-4">
               <Sparkles className="w-4 h-4 text-gold" />
-              <span className="text-sm font-medium">Premium Beauty Services</span>
+              <span className="text-sm font-medium">Premium Aesthetic Services</span>
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="bg-gradient-to-r from-primary-deep via-primary to-gold bg-clip-text text-transparent">
-                Our Signature Experiences
+                Our Signature Treatments
               </span>
             </h2>
 
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              From refined nail artistry and bespoke hair care to rejuvenating spa therapies and expert waxing, every treatment is thoughtfully designed to enhance your natural beauty and restore inner balance.
+              From expertly administered Botox and dermal fillers to transformative PDO thread lifts and relaxing massage therapy, every treatment is designed to enhance your natural beauty.
             </p>
 
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4 italic">
-              Each visit to Faridaz Spa is more than self-care — it&apos;s a journey back to natural wellness and complete rejuvenation.
+              Each visit to Janna Aesthetics is a step towards your most confident, radiant self.
             </p>
           </div>
 

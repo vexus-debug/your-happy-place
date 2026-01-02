@@ -2,11 +2,11 @@ import { memo } from "react";
 import { MessageCircle } from "lucide-react";
 
 const FloatingWhatsAppButton = memo(() => {
-  const whatsappNumber = "2347068121733";
-  const defaultMessage = "Hi! I'd like to book an appointment at Faridaz Spa.";
+  const whatsappNumber = "2348022936328";
+  const defaultMessage = "Hi! I'd like to book an appointment at Janna Aesthetics.";
   const whatsappUrl = whatsappNumber
     ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(defaultMessage)}`
-    : "https://wa.me/"; // Fallback if no number is provided
+    : "https://wa.me/";
 
   return (
     <a

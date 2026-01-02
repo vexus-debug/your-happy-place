@@ -24,19 +24,19 @@ const StorySection = memo(() => {
 
               <div>
                 <h2 className="text-4xl md:text-5xl font-bold text-foreground leading-tight mb-6">
-                  A Haven of <span className="bg-gradient-to-r from-primary via-primary-deep to-gold bg-clip-text text-transparent">Luxury & Rejuvenation</span>
+                  A New Standard in <span className="bg-gradient-to-r from-primary via-primary-deep to-gold bg-clip-text text-transparent">Aesthetic Excellence</span>
                 </h2>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  Welcome to Faridaz Spa, created with one purpose — to give every person who walks through our doors an escape. Located at the heart of Abuja, we believe beauty is more than appearance — it is how you feel inside.
+                  Welcome to Janna Aesthetics, where we believe in enhancing your natural beauty with precision and care. As a mobile spa, we bring premium aesthetic treatments directly to you, ensuring comfort and convenience without compromising on quality.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  From deeply therapeutic massages to scientifically advanced skincare, our team of certified professionals deliver world-class treatments with an unmatched level of care. Every treatment, every touch, and every detail in our space is designed to soothe, restore, and elevate your entire being.
+                  From expertly administered Botox and dermal fillers to transformative PDO thread lifts and relaxing massage therapy, our certified professionals deliver world-class treatments tailored to your unique needs.
                 </p>
 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Our atmosphere is warm, serene, and thoughtfully curated to help you unwind the moment you arrive. With a 4.9-star Google rating and glowing reviews from satisfied clients, Faridaz Spa is recognized for its professionalism, top-tier services, and deeply relaxing environment.
+                  Our full clinic is coming soon, but for now, we're proud to offer the same premium services through our mobile spa operations. Every treatment is performed with the highest standards of safety and professionalism.
                 </p>
               </div>
 
@@ -46,22 +46,22 @@ const StorySection = memo(() => {
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-2 sm:mb-3">
                     <Award className="w-5 h-5 sm:w-7 sm:h-7 text-primary" />
                   </div>
-                  <div className="text-xl sm:text-3xl font-bold text-foreground mb-1">4.9★</div>
-                  <div className="text-xs sm:text-sm text-muted-foreground">Google Rating</div>
+                  <div className="text-xl sm:text-3xl font-bold text-foreground mb-1">Premium</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Products</div>
                 </div>
                 <div className="text-center">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-gold/10 rounded-2xl flex items-center justify-center mx-auto mb-2 sm:mb-3">
                     <Users className="w-5 h-5 sm:w-7 sm:h-7 text-gold" />
                   </div>
                   <div className="text-xl sm:text-3xl font-bold text-foreground mb-1">Certified</div>
-                  <div className="text-xs sm:text-sm text-muted-foreground">Professionals</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Professional</div>
                 </div>
                 <div className="text-center">
                   <div className="w-12 h-12 sm:w-14 sm:h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-2 sm:mb-3">
                     <Heart className="w-5 h-5 sm:w-7 sm:h-7 text-primary" />
                   </div>
-                  <div className="text-xl sm:text-3xl font-bold text-foreground mb-1">World-Class</div>
-                  <div className="text-xs sm:text-sm text-muted-foreground">Treatments</div>
+                  <div className="text-xl sm:text-3xl font-bold text-foreground mb-1">Mobile</div>
+                  <div className="text-xs sm:text-sm text-muted-foreground">Service</div>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ const StorySection = memo(() => {
               <div className="row-span-2 relative rounded-3xl overflow-hidden shadow-elegant group">
                 <img 
                   src={massageImg}
-                  alt="Professional facial treatment at Faridaz Spa Abuja"
+                  alt="Professional aesthetic treatment at Janna Aesthetics"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
@@ -83,7 +83,7 @@ const StorySection = memo(() => {
               <div className="relative rounded-3xl overflow-hidden shadow-elegant group">
                 <img 
                   src={facialImg}
-                  alt="Relaxing facial steamer treatment at Faridaz Spa"
+                  alt="Relaxing facial treatment at Janna Aesthetics"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
@@ -94,7 +94,7 @@ const StorySection = memo(() => {
               <div className="relative rounded-3xl overflow-hidden shadow-elegant group">
                 <img 
                   src={pedicureImg}
-                  alt="Premium pedicure service at Faridaz Spa"
+                  alt="Premium service at Janna Aesthetics"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />

@@ -10,7 +10,8 @@ import {
   Wind,
   Palette,
   Gift,
-  ShoppingBag
+  ShoppingBag,
+  Syringe
 } from "lucide-react";
 
 export interface Service {
@@ -29,109 +30,90 @@ export interface ServiceCategory {
 
 export const servicesData: ServiceCategory[] = [
   {
-    category: "Massage Services",
-    iconName: "Waves",
+    category: "Botox Treatments",
+    iconName: "Sparkles",
     badge: "Popular",
     services: [
-      { name: "Aroma therapy", price: "₦40,000.00", duration: "60 mins" },
-      { name: "Swedish Massage", price: "₦40,000.00", duration: "60 mins" },
-      { name: "Swedish Massage (couple)", price: "₦75,000.00", duration: "60 mins" },
-      { name: "Deep Tissue Massage", price: "₦50,000.00", duration: "60 mins" },
-      { name: "Deep Tissue Massage (couple)", price: "₦80,000.00", duration: "60 mins" },
-      { name: "Reflexology", price: "₦30,000.00", duration: "30 mins" },
-      { name: "Hot Stone With Deep Tissue", price: "₦60,000.00", duration: "1 hr 30 mins" },
-      { name: "Hot Stone With Swedish", price: "₦60,000.00", duration: "1 hr 30 mins" },
-      { name: "Head, Shoulder, Back Massage", price: "₦30,000.00", duration: "45 mins" },
-      { name: "Four Hands Massage", price: "₦50,000.00", duration: "60 mins" }
+      { name: "Full Face Botox", price: "₦350,000" },
+      { name: "Frontalis (Forehead wrinkles)", price: "₦179,900" },
+      { name: "Crow's Feet (Eye wrinkles)", price: "₦159,200" },
+      { name: "Frown Lines", price: "₦98,700" },
+      { name: "Lip Flip Botox (Lip lift without filler)", price: "₦49,900" },
+      { name: "Brow Lift Botox (Lifted eye illusion)", price: "₦168,900" },
+      { name: "Twitching / Muscle Spasm Treatment", price: "₦79,900" },
+      { name: "Armpit Botox (Stops excessive sweating)", price: "₦250,000" },
+      { name: "Palms Botox", price: "₦250,000" },
+      { name: "Feet Botox", price: "₦250,000" },
+      { name: "Neck Band Botox", price: "₦159,200" },
+      { name: "Botox Per Unit", price: "₦5,000" }
     ]
   },
   {
-    category: "Waxing Services",
-    iconName: "Zap",
+    category: "Dermal Fillers",
+    iconName: "Heart",
     badge: "Featured",
     services: [
-      { name: "Full Body", price: "₦50,000.00", duration: "1 hr 30 mins" },
-      { name: "Half Body (upper Body)", price: "₦25,000.00", duration: "60 mins" },
-      { name: "Vajacial", price: "₦20,000.00", duration: "45 mins" },
-      { name: "Hollywood", price: "₦30,000.00", duration: "45 mins" },
-      { name: "Bikini", price: "₦10,000.00", duration: "10 mins" },
-      { name: "Full Face", price: "₦15,000.00", duration: "30 mins" },
-      { name: "Chin", price: "₦10,000.00", duration: "30 mins" },
-      { name: "Under Arm", price: "₦8,000.00", duration: "10 mins" },
-      { name: "Full Leg (waist Downwards)", price: "₦25,000.00", duration: "45 mins" },
-      { name: "Half Leg (knee Downwards)", price: "₦15,000.00", duration: "30 mins" },
-      { name: "Eye Brow", price: "₦5,000.00", duration: "10 mins" },
-      { name: "Upper Lip", price: "₦5,000.00", duration: "10 mins" },
-      { name: "Jacuzzi Bath", price: "₦20,000.00", duration: "30 mins" },
-      { name: "Sauna Only", price: "₦35,000.00", duration: "1 hour" },
-      { name: "Sauna Only", price: "₦20,000.00", duration: "30 mins" },
-      { name: "Steam Only", price: "₦20,000.00", duration: "30 mins" }
+      { name: "Lip Filler — 1ml", price: "₦139,900" },
+      { name: "Russian Lips", price: "₦259,500" },
+      { name: "Smile Line Fillers — 1ml", price: "₦139,900" },
+      { name: "Smile Line Fillers — 2ml (Deep lines)", price: "₦260,000" },
+      { name: "Under-Eye Filler", price: "₦139,900" },
+      { name: "Chin Filler — 1ml", price: "₦139,900" },
+      { name: "Chin Filler — 2ml", price: "₦260,000" },
+      { name: "Cheek Filler (Contoured look)", price: "₦260,000" },
+      { name: "Jawline Filler", price: "₦260,000" },
+      { name: "Vaginal Lip Filler", price: "₦180,000" },
+      { name: "Breast Filler (per 50ml)", price: "₦350,000" }
     ]
   },
   {
-    category: "Peels & Advanced Treatments",
-    iconName: "Sparkles",
+    category: "Non-Surgical Nose Jobs",
+    iconName: "Star",
     badge: "Luxury",
     services: [
-      { name: "Chemical Peel (clarity)", price: "₦80,000.00" },
-      { name: "Back Peel With Any Peel", price: "₦250,000.00" },
-      { name: "Knuckle Chemical Peel", price: "₦50,000.00" },
-      { name: "Feet Chemical Peel", price: "₦50,000.00" },
-      { name: "Neck Chemical Peel", price: "₦75,000.00" },
-      { name: "Full Body Peel (excluding Face)", price: "₦75,000.00" },
-      { name: "Algea Peel", price: "₦80,000.00" },
-      { name: "Chemical Peel + Microneedling", price: "₦120,000.00" },
-      { name: "Butt Facial", price: "₦60,000.00" },
-      { name: "Butt Peel", price: "₦120,000.00" },
-      { name: "Inner Thigh Facials", price: "₦60,000.00" },
-      { name: "Inner Thigh Peel", price: "₦120,000.00" },
-      { name: "Acne Facial For Men With Bumps Treatment", price: "₦100,000.00" },
-      { name: "Bumbs Fibro Blast Treatment With Peel For Men/women Chin", price: "₦75,000.00" },
-      { name: "Keloid Injectables (Per Vial)", price: "₦40,000.00" },
-      { name: "Back Peel With Algae Or Chemical Peel", price: "₦250,000.00" },
-      { name: "Combination Of Microneedling And Peel", price: "₦150,000.00" },
-      { name: "Combination Of Any Other Two Facials (Additional)", price: "₦30,000.00" },
-      { name: "Addition Of Demaplanning To Any Facial", price: "₦20,000.00" },
-      { name: "Am Pit Facial", price: "₦50,000.00" },
-      { name: "Armpit Peel Both", price: "₦100,000.00" },
-      { name: "Back Facial", price: "₦80,000.00" },
-      { name: "Vajafacial Treatment", price: "₦30,000.00" },
-      { name: "Vaja Facial With Demaplanning", price: "₦35,000.00" },
-      { name: "Vaja Facial With Waxing", price: "₦50,000.00" },
-      { name: "Vagi Facial + Waxing (men)", price: "₦70,000.00" }
+      { name: "Nose Filler Only", price: "₦139,900" },
+      { name: "PDO Thread Only", price: "₦160,000" },
+      { name: "PDO Thread + Filler", price: "₦229,700" }
     ]
   },
   {
-    category: "Hair Cut Services",
+    category: "PDO Thread Lift",
+    iconName: "Zap",
+    services: [
+      { name: "Fox Eye Lift", price: "₦230,000" },
+      { name: "Full Face Lift", price: "₦389,000" },
+      { name: "Nose Thread Lift", price: "₦160,000" },
+      { name: "Nose Thread + Filler", price: "₦229,700" },
+      { name: "Total 'Janna Doll' Package", price: "₦1,485,000", note: "Complete transformation" }
+    ]
+  },
+  {
+    category: "Fat Reduction & Slimming",
+    iconName: "Wind",
+    services: [
+      { name: "Lypolysis (Per vial)", price: "₦55,000" },
+      { name: "Total Body Slimming", price: "Consultation Only" }
+    ]
+  },
+  {
+    category: "Skin Tag Removal",
     iconName: "Scissors",
     services: [
-      { name: "Adult Haircut", price: "₦5,000.00" },
-      { name: "Female Haircut", price: "₦7,000.00" },
-      { name: "Teenager Haircut", price: "₦4,000.00" },
-      { name: "Children Haircut", price: "₦3,000.00" },
-      { name: "Haircut & Dye (black)", price: "₦7,000.00" },
-      { name: "Haircut & Texturizer", price: "₦8,000.00" },
-      { name: "Haircut & Hair Wash", price: "₦6,000.00" },
-      { name: "Shaving", price: "₦2,000.00" },
-      { name: "Hair Tint (Gold)", price: "₦10,000.00" },
-      { name: "Hair Tint (other Colour)", price: "₦20,000.00" },
-      { name: "Sporting Waves", price: "₦15,000.00" },
-      { name: "Washing & Shaving", price: "₦4,000.00" },
-      { name: "Relocking of Dread", price: "₦15,000.00" },
-      { name: "Starting Dread", price: "₦35,000.00" },
-      { name: "Dread Extension", price: "₦30,000.00" },
-      { name: "New Born Baby", price: "₦10,000.00" },
-      { name: "Whiteman Haircut", price: "₦10,000.00" }
+      { name: "Small", price: "₦35,900" },
+      { name: "Mild", price: "₦55,000" },
+      { name: "Heavy", price: "Consultation Required" }
     ]
   },
   {
-    category: "Manicure Services",
-    iconName: "Heart",
+    category: "Massage Therapy",
+    iconName: "Waves",
     services: [
-      { name: "Basic Manicure", price: "₦5,000.00", duration: "45 mins" },
-      { name: "Paraffin Wax Manicure", price: "₦8,000.00", duration: "60 mins" },
-      { name: "Regular Polish", price: "₦2,000.00", duration: "60 mins" },
-      { name: "Gel Polish", price: "₦4,000.00", duration: "60 mins" }
+      { name: "Swedish Massage", price: "₦49,800" },
+      { name: "Deep Tissue Massage", price: "₦56,800" },
+      { name: "Deep Tissue + Warm Stone", price: "₦74,900" },
+      { name: "Signature Massage (2 hrs)", price: "₦120,000" },
+      { name: "Pregnancy Massage", price: "₦55,000" },
+      { name: "Sports Massage", price: "₦56,800" }
     ]
   }
 ];
@@ -152,4 +134,4 @@ export const iconMap = {
 };
 
 // Important Note
-export const extraTimeNote = "Note: Extra time attracts extra charges.";
+export const extraTimeNote = "Note: Consultation may be required for some treatments.";
