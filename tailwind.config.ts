@@ -82,13 +82,13 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			boxShadow: {
-				'soft': '0 4px 20px hsl(180 68% 27% / 0.25)',
-				'elegant': '0 8px 30px hsl(180 68% 27% / 0.35)',
-				'accent': '0 4px 20px hsl(260 32% 60% / 0.45)',
-				'bold': '0 6px 28px hsl(180 68% 27% / 0.45)',
-				'vibrant': '0 10px 40px hsl(260 32% 60% / 0.55)',
-				'teal-glow': '0 0 20px hsl(180 68% 27% / 0.4)',
-				'lavender-glow': '0 8px 32px hsl(260 32% 60% / 0.5)'
+				'soft': '0 4px 20px hsl(160 84% 29% / 0.3)',
+				'elegant': '0 8px 30px hsl(160 84% 29% / 0.4)',
+				'accent': '0 4px 20px hsl(43 74% 49% / 0.5)',
+				'bold': '0 6px 28px hsl(160 84% 29% / 0.5)',
+				'vibrant': '0 10px 40px hsl(43 74% 49% / 0.6)',
+				'emerald-glow': '0 0 20px hsl(160 84% 29% / 0.5)',
+				'gold-glow': '0 8px 32px hsl(43 74% 49% / 0.55)'
 			},
 			keyframes: {
 				'accordion-down': {

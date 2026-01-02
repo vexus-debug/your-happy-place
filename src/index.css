@@ -4,108 +4,108 @@
 
 @layer base {
   :root {
-    /* Janna Aesthetics Color Palette */
-    /* Deep Teal Primary */
-    --background: 60 20% 98%; /* #F9F9F7 cream */
-    --foreground: 180 68% 20%; /* Deep teal for text */
+    /* Janna Aesthetics - Vibrant Emerald & Gold Theme */
+    /* Warm, Inviting, Luxurious */
+    --background: 45 30% 97%; /* Warm cream */
+    --foreground: 152 60% 18%; /* Rich emerald text */
     
-    --card: 60 20% 99%;
-    --card-foreground: 180 68% 18%;
+    --card: 45 35% 98%;
+    --card-foreground: 152 55% 16%;
     
-    --popover: 60 20% 99%;
-    --popover-foreground: 180 68% 18%;
+    --popover: 45 35% 99%;
+    --popover-foreground: 152 55% 16%;
     
-    /* Deep Teal Primary - #177373 */
-    --primary: 180 68% 27%;
-    --primary-foreground: 60 20% 98%;
-    --primary-soft: 180 50% 40%;
-    --primary-deep: 180 70% 20%;
+    /* Vibrant Emerald Primary - Rich, Saturated Green */
+    --primary: 160 84% 29%; /* Vibrant emerald #047857 */
+    --primary-foreground: 45 30% 98%;
+    --primary-soft: 158 64% 42%; /* Brighter emerald */
+    --primary-deep: 162 78% 22%; /* Deep forest #065F46 */
     
-    /* Lavender Purple Accent - #8B7BB8 */
-    --accent-green: 260 32% 60%;
-    --accent-foreground: 60 20% 98%;
-    --accent-light: 260 40% 75%;
-    --accent-dark: 260 35% 45%;
+    /* Gold/Champagne Accent - Warm & Luxurious */
+    --accent-green: 43 74% 49%; /* Rich gold #D4A418 */
+    --accent-foreground: 45 30% 12%;
+    --accent-light: 45 80% 68%; /* Light champagne */
+    --accent-dark: 40 70% 38%; /* Deep gold */
     
-    /* Lavender as main accent */
-    --lavender: 260 32% 60%;
-    --lavender-light: 260 40% 80%;
-    --lavender-dark: 260 35% 45%;
+    /* Gold as main accent (replacing lavender) */
+    --lavender: 43 74% 49%;
+    --lavender-light: 45 80% 72%;
+    --lavender-dark: 40 70% 38%;
     
-    --secondary: 180 25% 92%;
-    --secondary-foreground: 180 68% 22%;
+    --secondary: 152 20% 92%;
+    --secondary-foreground: 152 55% 20%;
     
-    --muted: 60 15% 94%;
-    --muted-foreground: 180 20% 40%;
+    --muted: 45 20% 94%;
+    --muted-foreground: 152 25% 38%;
     
-    --accent: 260 32% 60%;
+    --accent: 43 74% 49%;
     
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 60 20% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 45 30% 98%;
     
-    --border: 180 20% 85%;
-    --input: 180 20% 85%;
-    --ring: 180 68% 27%;
+    --border: 45 25% 85%;
+    --input: 45 25% 85%;
+    --ring: 160 84% 29%;
     
     --radius: 0.5rem;
     
-    --sidebar-background: 60 20% 98%;
-    --sidebar-foreground: 180 68% 22%;
-    --sidebar-primary: 180 68% 27%;
-    --sidebar-primary-foreground: 60 20% 98%;
-    --sidebar-accent: 260 32% 60%;
-    --sidebar-accent-foreground: 60 20% 98%;
-    --sidebar-border: 180 20% 88%;
-    --sidebar-ring: 180 68% 27%;
+    --sidebar-background: 45 30% 97%;
+    --sidebar-foreground: 152 55% 20%;
+    --sidebar-primary: 160 84% 29%;
+    --sidebar-primary-foreground: 45 30% 98%;
+    --sidebar-accent: 43 74% 49%;
+    --sidebar-accent-foreground: 45 30% 12%;
+    --sidebar-border: 45 25% 88%;
+    --sidebar-ring: 160 84% 29%;
   }
 
   .dark {
-    --background: 180 30% 8%;
-    --foreground: 60 20% 95%;
+    --background: 155 35% 7%;
+    --foreground: 45 25% 95%;
     
-    --card: 180 25% 12%;
-    --card-foreground: 60 20% 95%;
+    --card: 155 30% 11%;
+    --card-foreground: 45 25% 95%;
     
-    --popover: 180 25% 12%;
-    --popover-foreground: 60 20% 95%;
+    --popover: 155 30% 11%;
+    --popover-foreground: 45 25% 95%;
     
-    --primary: 180 55% 45%;
-    --primary-foreground: 180 30% 8%;
-    --primary-soft: 180 45% 55%;
-    --primary-deep: 180 60% 35%;
+    --primary: 158 72% 42%;
+    --primary-foreground: 155 35% 7%;
+    --primary-soft: 156 65% 52%;
+    --primary-deep: 162 75% 32%;
     
-    --accent-green: 260 40% 65%;
-    --accent-foreground: 180 30% 8%;
-    --accent-light: 260 45% 75%;
-    --accent-dark: 260 35% 50%;
+    --accent-green: 45 75% 55%;
+    --accent-foreground: 155 35% 7%;
+    --accent-light: 47 78% 68%;
+    --accent-dark: 42 70% 42%;
     
-    --lavender: 260 40% 65%;
-    --lavender-light: 260 45% 75%;
-    --lavender-dark: 260 35% 50%;
+    --lavender: 45 75% 55%;
+    --lavender-light: 47 78% 68%;
+    --lavender-dark: 42 70% 42%;
     
-    --secondary: 180 25% 18%;
-    --secondary-foreground: 60 20% 95%;
+    --secondary: 155 25% 16%;
+    --secondary-foreground: 45 25% 95%;
     
-    --muted: 180 20% 20%;
-    --muted-foreground: 60 15% 65%;
+    --muted: 155 22% 18%;
+    --muted-foreground: 45 20% 65%;
     
-    --accent: 260 40% 65%;
+    --accent: 45 75% 55%;
     
-    --destructive: 0 62.8% 50.6%;
-    --destructive-foreground: 60 20% 98%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 45 30% 98%;
     
-    --border: 180 20% 22%;
-    --input: 180 20% 22%;
-    --ring: 180 55% 45%;
+    --border: 155 22% 20%;
+    --input: 155 22% 20%;
+    --ring: 158 72% 42%;
     
-    --sidebar-background: 180 25% 10%;
-    --sidebar-foreground: 60 20% 95%;
-    --sidebar-primary: 180 55% 45%;
-    --sidebar-primary-foreground: 180 30% 8%;
-    --sidebar-accent: 260 40% 65%;
-    --sidebar-accent-foreground: 180 30% 8%;
-    --sidebar-border: 180 20% 18%;
-    --sidebar-ring: 180 55% 45%;
+    --sidebar-background: 155 30% 9%;
+    --sidebar-foreground: 45 25% 95%;
+    --sidebar-primary: 158 72% 42%;
+    --sidebar-primary-foreground: 155 35% 7%;
+    --sidebar-accent: 45 75% 55%;
+    --sidebar-accent-foreground: 155 35% 7%;
+    --sidebar-border: 155 22% 16%;
+    --sidebar-ring: 158 72% 42%;
   }
 }
 
