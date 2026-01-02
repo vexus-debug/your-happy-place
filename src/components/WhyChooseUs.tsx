@@ -9,26 +9,26 @@ const WhyChooseUs = memo(() => {
   const features = [
     {
       icon: Shield,
-      title: "Excellence You Can Trust",
-      description: "4.9-star Google rating with glowing reviews. Our customers often describe their experience with one word — unforgettable.",
+      title: "Premium Quality Products",
+      description: "We use only the highest quality, FDA-approved products for all our Botox and filler treatments, ensuring safe and effective results.",
       color: "primary"
     },
     {
       icon: Users,
-      title: "Training & Development Hub",
-      description: "We're raising the next generation of wellness professionals through structured training programs, teaching aspiring therapists hands-on skills from experts.",
+      title: "Certified Professional",
+      description: "Our treatments are administered by certified aesthetic professionals with extensive training in the latest techniques and procedures.",
       color: "gold"
     },
     {
       icon: MapPin,
-      title: "Premium Home Service",
-      description: "Select services such as massages and facials available at your doorstep — bringing the Faridaz experience directly to your home.",
+      title: "Mobile Spa Convenience",
+      description: "Enjoy premium aesthetic treatments in the comfort of your own space. Our mobile spa brings world-class services directly to you.",
       color: "primary"
     },
     {
       icon: Star,
-      title: "Certified Professionals",
-      description: "Our team of certified professionals deliver world-class treatments with an unmatched level of care in a warm, serene atmosphere.",
+      title: "Personalized Treatments",
+      description: "Every face is unique. We provide customized treatment plans tailored to your specific goals and facial anatomy for natural-looking results.",
       color: "gold"
     }
   ];
@@ -51,14 +51,14 @@ const WhyChooseUs = memo(() => {
 
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
               <span className="bg-gradient-to-r from-primary-deep via-primary to-accent-green bg-clip-text text-transparent" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.08)' }}>
-                Beyond a Spa
+                Beyond Aesthetics
               </span>
               <br />
-              <span className="text-foreground">A Complete Wellness Experience</span>
+              <span className="text-foreground">A Complete Transformation</span>
             </h2>
 
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              From advanced treatments to professional training and home service options, Faridaz Spa offers comprehensive wellness solutions for every need.
+              From Botox and fillers to PDO thread lifts and massage therapy, Janna Aesthetics offers comprehensive aesthetic solutions for your beauty goals.
             </p>
           </div>
 
@@ -91,21 +91,21 @@ const WhyChooseUs = memo(() => {
               <div className="space-y-6">
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/10 border border-gold/20">
                   <MapPin className="w-4 h-4 text-gold" />
-                  <span className="text-sm font-medium">Visit Us</span>
+                  <span className="text-sm font-medium">Contact Us</span>
                 </div>
 
                 <div>
                   <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-                    Find Your Sanctuary in Garki
+                    Book Your Transformation
                   </h3>
                   <p className="text-lg text-muted-foreground leading-relaxed mb-3">
-                    📍 Shop No. 14, 2nd Floor, Mall of Dubai, Gimbiya Street, Opp. H-Medix, Area 11, Garki, Abuja
+                    📍 Mobile Spa Services — We come to you!
                   </p>
                   <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                    📍 No. 3 Lakota Street, Behind Febson Apartment, Zone 4, Wuse, Abuja
+                    📱 Full clinic services expanding soon
                   </p>
                   <p className="text-base text-muted-foreground">
-                    📞 +234 706 812 1733 | 📧 faridazspa@gmail.com
+                    📞 +234 802 293 6328 | 📸 @Jannaaesthetics.ng
                   </p>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const WhyChooseUs = memo(() => {
                   className="group w-full"
                 >
                   <Calendar className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
-                  Book Your Escape
+                  Book Your Treatment
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <Button 
@@ -127,7 +127,7 @@ const WhyChooseUs = memo(() => {
                   size="lg"
                   className="group w-full"
                 >
-                  Get Directions
+                  Contact Us
                   <MapPin className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
                 </Button>
               </div>

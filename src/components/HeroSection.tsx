@@ -16,37 +16,37 @@ const HeroSection = () => {
           {/* Luxury Badge with Glassmorphism */}
           <div className="inline-flex items-center space-x-2 glass-card px-6 py-3 rounded-full mb-6 border border-primary/30 bg-background/90 backdrop-blur-xl shadow-soft animate-fade-in">
             <Sparkles className="w-4 h-4 text-gold animate-pulse" />
-            <span className="text-foreground font-medium tracking-wide text-sm">Certified Professionals • 4.9★ Google Rating</span>
+            <span className="text-foreground font-medium tracking-wide text-sm">Mobile Spa • Premium Aesthetics</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-slide-up">
             <span className="block text-foreground">
-              Abuja's Sanctuary of
+              Transform Your Beauty with
             </span>
             <span className="block bg-gradient-to-r from-primary-deep via-primary to-accent-green bg-clip-text text-transparent" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.08)' }}>
-              Calm, Beauty & Complete Well-Being
+              Premium Aesthetic Treatments
             </span>
           </h1>
 
           {/* Sub-headline */}
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 leading-relaxed mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            An escape from stress, from noise, from routine... into a world where your body, mind, and spirit are renewed through world-class treatments in Garki & Wuse, Abuja.
+            Expert Botox, dermal fillers, PDO thread lifts, and massage therapy. Mobile spa services bringing world-class aesthetics directly to you.
           </p>
 
           {/* Key Features List */}
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-8 animate-slide-up" style={{ animationDelay: '0.3s' }}>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Award className="w-4 h-4 text-gold" />
-              <span>Certified Professionals</span>
+              <span>Certified Professional</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Star className="w-4 h-4 text-gold" />
-              <span>4.9★ Google Rating</span>
+              <span>Premium Products</span>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <Heart className="w-4 h-4 text-primary" />
-              <span>Premium Home Service</span>
+              <span>Mobile Service</span>
             </div>
           </div>
 
@@ -96,7 +96,7 @@ const HeroSection = () => {
           <div className="relative h-full rounded-3xl overflow-hidden shadow-elegant group">
             <img 
               src={spaImage}
-              alt="Happy client with spa towel wrap enjoying post-treatment relaxation at Faridaz Spa Abuja"
+              alt="Premium aesthetic treatment at Janna Aesthetics"
               className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               fetchPriority="high"
             />
@@ -112,17 +112,17 @@ const HeroSection = () => {
           <div className="absolute -left-4 lg:left-4 top-1/4 glass-card p-4 rounded-2xl border border-primary/20 bg-background/80 backdrop-blur-xl shadow-elegant animate-float max-w-[140px]" style={{ animationDelay: '0.5s' }}>
             <div className="flex items-center gap-2 mb-1">
               <Star className="w-5 h-5 text-gold fill-gold" />
-              <span className="text-2xl font-bold text-foreground">4.9</span>
+              <span className="text-2xl font-bold text-foreground">Premium</span>
             </div>
-            <p className="text-xs text-muted-foreground">Customer Rating</p>
+            <p className="text-xs text-muted-foreground">Quality Products</p>
           </div>
 
           <div className="absolute -right-4 lg:right-4 bottom-1/3 glass-card p-4 rounded-2xl border border-primary/20 bg-background/80 backdrop-blur-xl shadow-elegant animate-float max-w-[140px]" style={{ animationDelay: '0.7s', animationDuration: '4s' }}>
             <div className="flex items-center gap-2 mb-1">
               <Award className="w-5 h-5 text-primary" />
-              <span className="text-2xl font-bold text-foreground">10+</span>
+              <span className="text-2xl font-bold text-foreground">Expert</span>
             </div>
-            <p className="text-xs text-muted-foreground">Years Experience</p>
+            <p className="text-xs text-muted-foreground">Certified Care</p>
           </div>
 
           {/* Subtle Particles */}

@@ -53,7 +53,7 @@ const BookingSection = () => {
     }
     
     // Create WhatsApp message
-    const message = `Hello Faridaz Spa! I'd like to book an appointment:
+    const message = `Hello Janna Aesthetics! I'd like to book an appointment:
     
 Name: ${formData.name}
 Phone: ${formData.phone}
@@ -66,7 +66,7 @@ Additional Notes: ${formData.message}
 
 Please confirm my appointment. Thank you!`;
     
-    const whatsappURL = `https://wa.me/2347068121733?text=${encodeURIComponent(message)}`;
+    const whatsappURL = `https://wa.me/2348022936328?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, '_blank');
   };
 

@@ -4,45 +4,45 @@ import { memo } from "react";
 const TestimonialsGrid = memo(() => {
   const testimonials = [
     {
-      name: "Vera Uhlara",
-      service: "Nail Services",
+      name: "Amaka O.",
+      service: "Lip Fillers",
       rating: 5,
-      text: "I recently had the pleasure of visiting Faridaz Spa... a true hidden gem... The natural treatments and professional staff are exceptional... I felt completely renewed and my skin has never looked better...",
+      text: "I was nervous about getting lip fillers for the first time, but the experience at Janna Aesthetics was amazing. The results are so natural and exactly what I wanted!",
       featured: true
     },
     {
-      name: "Emmanuel Obi",
-      service: "Spa Treatment",
+      name: "Chioma N.",
+      service: "Botox Treatment",
       rating: 5,
-      text: "We had a great spa treatment... their service is strictly professional, Top notch customer service...",
+      text: "Professional service and incredible results. My forehead lines are gone and I still look like myself, just refreshed!",
       featured: false
     },
     {
-      name: "Karen Chilotam",
-      service: "Spa Treatment",
-      rating: 4,
-      text: "Had the most relaxing time at the spa today! The service was top-notch...",
+      name: "Sarah M.",
+      service: "PDO Thread Lift",
+      rating: 5,
+      text: "The Fox Eye Lift gave me that lifted look I wanted without surgery. Highly recommend Janna Aesthetics!",
       featured: false
     },
     {
-      name: "Oseni Ifedolapo",
-      service: "Spa Services",
+      name: "Blessing A.",
+      service: "Dermal Fillers",
       rating: 5,
-      text: "This has to be the best spa in Abuja... She is so warm and sweet and patient too while being extremely professional.",
+      text: "The mobile spa service is so convenient. She came to my home and the cheek filler results are stunning. Very professional and skilled.",
       featured: true
     },
     {
-      name: "Raregem Jay",
+      name: "Funke T.",
       service: "Massage Therapy",
       rating: 5,
-      text: "I had a wonderful experience at Faridaz Spa today. The massage I had was so therapeutic.",
+      text: "The signature massage was absolutely divine. Two hours of pure relaxation. Will definitely be booking again!",
       featured: false
     },
     {
-      name: "Q Queen Chinweuba",
-      service: "Spa Experience",
-      rating: 4,
-      text: "I must say that my expectations were surpassed. The ambiance is awesome and very welcoming...",
+      name: "Adaeze K.",
+      service: "Russian Lips",
+      rating: 5,
+      text: "Got the Russian lips treatment and I am obsessed! Perfect shape and volume. Thank you Janna Aesthetics!",
       featured: false
     }
   ];
@@ -71,7 +71,7 @@ const TestimonialsGrid = memo(() => {
 
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Don't just take our word for it. Hear from the amazing clients who have 
-              experienced the Faridaz Spa difference.
+              experienced the Janna Aesthetics difference.
             </p>
           </div>
 
@@ -124,8 +124,8 @@ const TestimonialsGrid = memo(() => {
             <div className="inline-flex items-center gap-3 px-6 py-4 rounded-2xl bg-gradient-to-r from-primary/10 via-gold/10 to-primary/10 border border-primary/20">
               <Star className="w-6 h-6 text-gold fill-gold" />
               <div className="text-left">
-                <div className="text-2xl font-bold text-foreground">4.9/5.0</div>
-                <div className="text-sm text-muted-foreground">Based on 100+ reviews</div>
+                <div className="text-2xl font-bold text-foreground">Premium Quality</div>
+                <div className="text-sm text-muted-foreground">Trusted by clients across Nigeria</div>
               </div>
             </div>
           </div>

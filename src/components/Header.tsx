@@ -23,11 +23,11 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
             <img 
               src="/logo.png" 
-              alt="Faridaz Spa Logo" 
+              alt="Janna Aesthetics Logo" 
               className="h-12 w-auto"
             />
             <div>
-              <p className="text-xs text-muted-foreground">Natural and Tranquility</p>
+              <p className="text-xs text-muted-foreground">Premium Aesthetics</p>
             </div>
           </Link>
 
@@ -52,12 +52,6 @@ const Header = () => {
               Services
             </Link>
             <Link 
-              to="/products"
-              className={`hover:text-primary transition-colors font-medium ${isActive('/products') ? 'text-primary' : 'text-foreground'}`}
-            >
-              Products
-            </Link>
-            <Link 
               to="/gallery"
               className={`hover:text-primary transition-colors font-medium ${isActive('/gallery') ? 'text-primary' : 'text-foreground'}`}
             >
@@ -75,7 +69,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span>+2347068121733</span>
+              <span>+234 802 293 6328</span>
             </div>
             <Link to="/booking">
               <Button className="btn-gold">
@@ -119,13 +113,6 @@ const Header = () => {
                 Services
               </Link>
               <Link 
-                to="/products"
-                onClick={closeMenu}
-                className={`text-left py-2 hover:text-primary transition-colors font-medium ${isActive('/products') ? 'text-primary' : 'text-foreground'}`}
-              >
-                Products
-              </Link>
-              <Link 
                 to="/gallery"
                 onClick={closeMenu}
                 className={`text-left py-2 hover:text-primary transition-colors font-medium ${isActive('/gallery') ? 'text-primary' : 'text-foreground'}`}
@@ -141,7 +128,7 @@ const Header = () => {
               </Link>
               <div className="flex items-center space-x-2 py-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4" />
-                <span>+2347068121733</span>
+                <span>+234 802 293 6328</span>
               </div>
               <Link to="/booking" onClick={closeMenu}>
                 <Button className="btn-gold w-full mt-2">
