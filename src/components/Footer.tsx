@@ -38,18 +38,18 @@ const Footer = () => {
             <div className="lg:col-span-2 space-y-8">
               <div>
                 <div className="flex items-center space-x-4 mb-6">
-                  <div className="relative w-16 h-16 bg-gradient-to-br from-primary via-gold to-gold-light rounded-full flex items-center justify-center shadow-lg shadow-gold/30 animate-float">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary to-gold rounded-full blur-md opacity-50"></div>
-                    <span className="relative text-white font-bold text-2xl">B</span>
-                    <div className="absolute inset-0 rounded-full bg-gradient-to-br from-transparent via-white/20 to-transparent animate-shimmer"></div>
-                  </div>
+                  <img 
+                    src="/logo.png" 
+                    alt="Janna Aesthetics" 
+                    className="h-16 w-auto"
+                  />
                   <div>
-                  <h3 className="text-3xl font-bold bg-gradient-to-r from-white via-gold-light to-gold bg-clip-text text-transparent">
-                      Faridaz Spa
+                    <h3 className="text-3xl font-bold bg-gradient-to-r from-white via-gold-light to-gold bg-clip-text text-transparent">
+                      Janna Aesthetics
                     </h3>
                     <p className="text-background/70 text-sm flex items-center gap-1">
                       <Sparkles className="w-3 h-3 text-gold" />
-                      Authentic Traditional Spa
+                      Premium Aesthetics
                     </p>
                   </div>
                 </div>
